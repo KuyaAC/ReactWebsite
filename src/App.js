@@ -1,12 +1,14 @@
-
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Yooo</h1>
-    </div>
-  );
+  return <form className='new-item-form'>
+    <label>Add New Item</label>
+    <input type='text' id='item' />
+
+  </form>
+
+
 }
+
 
 export default App;
